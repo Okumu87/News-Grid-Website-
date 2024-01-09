@@ -249,11 +249,11 @@ h6 {
 #home-articles .articles-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  grid-gap: 1rem;
 }
 
-#home-articles .articles-container *:first-child,
-#home-articles .articles-container *:last-child {
+#home-articles .articles-container > *:first-child,
+#home-articles .articles-container > *:last-child {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
